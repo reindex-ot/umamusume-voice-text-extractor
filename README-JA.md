@@ -1,25 +1,24 @@
 # umamusume-voice-text-extractor
 
-- [Chinese/中文](README-ZH.md)
-- Extract the voice and corresponding text
+- [Chinese/中国語](README-ZH.md)
+- 音声と対応するテキストを抽出します
 
 
 
-# Install
+# インストール
 
-## Use binary files
+## バイナリファイルを使用する場合
 
-- Install [.Net 6.0 Runtime](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)
-
-- Download binary file in [Releases](https://github.com/chinosk6/umamusume-voice-text-extractor/releases)
-- Double-click `run.bat`
-
+- [.NET 6.0 ランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)をインストール
+- [Releases](https://github.com/chinosk6/umamusume-voice-text-extractor/releases)からバイナリファイルをダウンロード
+- `run.bat`をダブルクリックで起動
 
 
-## Run from code
 
-- Required Environment: [Python 3.8+](https://www.python.org/downloads/)、[.Net 6.0 Runtime](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)
-- Install python package: `pip install -r requirements.txt`
+## コードから実行する場合
+
+- 必須環境: [Python 3.8+](https://www.python.org/downloads/)と[.NET 6.0 ランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)
+- Pythonパッケージのインストール: `pip install -r requirements.txt`
 
 ```
 pydantic~=1.8.2
@@ -37,7 +36,7 @@ rich~=13.5.2
 
 # Usage
 
-## With GUI
+## GUIあり
 
 - Run binary file from [Releases](https://github.com/chinosk6/umamusume-voice-text-extractor/releases) : `run.bat`
 - Run source code: `python gui_main.py`
@@ -71,7 +70,7 @@ rich~=13.5.2
 
 
 
-## No GUI
+## GUIなし
 
 - Edit and run `main.py`: `python main.py`
 
@@ -114,9 +113,9 @@ ex.extract_all_char_text_multi([1024, 1046])
 
 
 
-# Extract Result
+# 抽出の結果
 
- - Voice files
+ - 音声ファイル
 <img src="img/file.jpg" style="zoom:35%;" />
 
  - Single character mode
@@ -127,7 +126,7 @@ ex.extract_all_char_text_multi([1024, 1046])
 
 
 
-# Special Thanks
+# スペシャルサンクス
 
 - [MarshmallowAndroid/UmaMusumeExplorer](https://github.com/MarshmallowAndroid/UmaMusumeExplorer)
 
