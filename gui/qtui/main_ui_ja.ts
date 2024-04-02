@@ -51,7 +51,7 @@
     <message>
         <location filename="main_ui.py" line="586"/>
         <source>Wave Format</source>
-        <translation type="unfinished">Wave形式</translation>
+        <translation type="unfinished">Waveフォーマット</translation>
     </message>
     <message>
         <location filename="main_ui.py" line="587"/>
@@ -131,7 +131,7 @@
     <message>
         <location filename="main_ui.py" line="569"/>
         <source>Multi Character Mode</source>
-        <translation type="unfinished">マルチキャラクターモード</translation>
+        <translation type="unfinished">ウマ娘複数抽出モード</translation>
     </message>
     <message>
         <location filename="main_ui.py" line="570"/>
